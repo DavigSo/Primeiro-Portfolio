@@ -1,0 +1,354 @@
+html {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+body {
+  background: var(--body-bg-color);
+  display: flex;
+  width: 1440px;
+  height: 1767px;
+}
+
+.titulo {
+  font-family: Merriweather Sans;
+  color: var(--text-color);
+  font-weight: 600;
+
+  padding: 20px;
+  margin-bottom: -15px;
+}
+
+/* Profile */
+.profile {
+  border-radius: 20px;
+  margin: 40px;
+  background: var(--bg-cards);
+  width: 348px;
+  height: 292px;
+  text-align: center;
+}
+
+main .avatar {
+  margin-top: 32px;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  text-align: center;
+  border: 5px solid green;
+}
+
+.nomeUsuario {
+  font-family: Merriweather Sans;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.cargo {
+  font-family: Merriweather Sans;
+  font-weight: 100;
+  color: var(--text-color);
+}
+/* *********************** */
+
+/* my projects */
+
+.links {
+  width: 348px;
+  height: 348px;
+  background: var(--bg-cards);
+  margin: 40px;
+  border-radius: 20px;
+
+  font-family: Merriweather Sans;
+  color: var(--text-color);
+  font-weight: 200;
+
+  overflow: hidden;
+  display: flex;
+}
+
+.ulLinks {
+  list-style: none;
+}
+
+.ulDescricaoIcons {
+  list-style: none;
+}
+
+.assets {
+  padding: 10px;
+}
+
+.icons {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.descricaoIcons .assets {
+  font-size: 80%;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  height: 45px;
+
+  margin-left: -20px;
+}
+/* *********************** */
+
+/* technologies */
+.technologies {
+  width: 348px;
+  height: 208px;
+  background: var(--bg-cards);
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.tituloTec {
+  font-family: Merriweather Sans;
+  color: var(--text-color);
+  font-weight: 600;
+
+  padding: 20px;
+  margin-bottom: -10px;
+}
+.ulTechnologies {
+  list-style: none;
+}
+
+.liBotoes {
+  overflow: hidden;
+  display: inline;
+}
+
+.botoesTec {
+  border-radius: 10px;
+  height: 24px;
+  width: 86px;
+
+  font-family: Merriweather Sans;
+  font-size: 50%;
+  font-weight: 700;
+
+  color: black;
+  background-color: #cb92b1;
+}
+
+/* ************************** */
+
+/* Experiencias */
+.experiences {
+  width: 348px;
+  height: 348px;
+  background: var(--bg-cards);
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.liInsti {
+  font-family: Merriweather Sans;
+  color: var(--text-color);
+  font-weight: bold;
+
+  margin: 20px;
+}
+
+.paragraphData {
+  margin: -3px;
+  margin-left: 1px;
+
+  font-family: Merriweather Sans;
+  font-weight: 10;
+  color: var(--text-color);
+  font-size: bold;
+}
+
+.paragraphDescription {
+  margin: -3px;
+  margin-left: 1px;
+
+  font-family: Merriweather Sans;
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 90%;
+}
+/* ***************************** */
+
+/* Educação */
+.education {
+  width: 348px;
+  height: 348px;
+  background: var(--bg-cards);
+  margin: 40px;
+  border-radius: 20px;
+}
+
+/* *************************** */
+
+/*  Meus Projetos */
+
+header {
+  width: 952px;
+  height: 86px;
+  background: var(--bg-cards);
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.box {
+  display: inline-block;
+}
+
+#box1 {
+  margin: 10px;
+}
+
+#box2 {
+  margin-top: 15px;
+  margin-left: 650px;
+}
+
+/* *************************** */
+
+/* Projetos */
+
+.projetos {
+  position: relative;
+}
+
+nav {
+  width: 461px;
+  height: 186px;
+  background: var(--bg-cards);
+  color: var(--text-color);
+  margin: 40px;
+  border-radius: 20px;
+  font-family: Merriweather Sans;
+}
+
+#folder {
+  position: relative;
+  left: 31px;
+  top: 32px;
+}
+
+#span1 {
+  position: relative;
+  left: 40px;
+  top: 28px;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+nav p {
+  position: relative;
+  margin: 25px;
+  left: 8px;
+  font-weight: bold;
+}
+
+#star {
+  position: relative;
+  left: 31px;
+}
+
+#span2 {
+  position: relative;
+  left: 40px;
+  bottom: 5px;
+
+  font-size: 100%;
+}
+
+#gitBranch {
+  position: relative;
+  left: 70px;
+}
+
+#span3 {
+  position: relative;
+  left: 80px;
+  bottom: 5px;
+
+  font-size: 100%;
+}
+
+.elipse {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  bottom: 25px;
+  left: 339px;
+  border-radius: 100%;
+  border: 2px solid #837e9f;
+  background-color: #e7de79;
+}
+
+#span4 {
+  position: relative;
+  bottom: 45px;
+  left: 365px;
+}
+
+.retangulo2 {
+  position: relative;
+  left: 490px;
+  bottom: 226px;
+}
+
+/* *************************** */
+
+/* Recent posts */
+
+footer {
+  width: 952px;
+  height: 86px;
+  background: var(--bg-cards);
+  margin-left: 40px;
+
+  border-radius: 20px;
+
+  position: relative;
+
+  top: -225px;
+}
+
+/* *************************** */
+
+/* Post */
+
+.post {
+  font-family: Merriweather Sans;
+  color: var(--text-color);
+
+  width: 952px;
+  height: 201px;
+  background: var(--bg-cards);
+  margin-left: 40px;
+  border-radius: 20px;
+
+  position: relative;
+  top: -190px;
+}
+
+.fotoPost {
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin: 30px;
+}
+
+.container {
+  position: relative;
+  bottom: 160px;
+  left: 180px;
+}
+
+.tempo {
+  position: relative;
+  bottom: 10px;
+}
